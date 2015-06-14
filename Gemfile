@@ -19,3 +19,8 @@ gem 'therubyracer', :platforms => :ruby
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
